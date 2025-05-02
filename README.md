@@ -87,7 +87,7 @@ If you need to seed the database with sample data, you can run:
 ```bash
     php artisan db:seed
 ```
-## Step 3: Execution Guide
+# Execution Guide
 After setting up the environment, you can execute the solution.
 
 Step 1: Serve the Application
