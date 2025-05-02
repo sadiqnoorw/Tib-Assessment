@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Repositories\Interfaces;
+
+interface PatientRepositoryInterface
+{
+    public function all();
+    public function find($id);
+    public function create(array $data);
+    public function update($id, array $data);
+    public function delete($id);
+    public function getFemalesAdultsWith8pmMeds();
+    public function getMaleInfantsWith8amMeds();
+    public function getByGenderAndAgeAndTime($gender, $isInfant, $time);
+
+}
