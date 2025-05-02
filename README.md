@@ -13,9 +13,9 @@ This repository contains the completed technical assessment for the Open Source 
 3. [Execution Guide](#execution-guide)
 4. [Technical Approach](#technical-approach)
 5. [Dependencies](#dependencies)
-6. [Configuration](#configuration)
-7. [Testing and Validation](#testing-and-validation)
-8. [License](#license)
+
+
+
 
 ---
 
@@ -87,7 +87,7 @@ If you need to seed the database with sample data, you can run:
 ```bash
     php artisan db:seed
 ```
-Execution Guide
+## Step 3: Execution Guide
 After setting up the environment, you can execute the solution.
 
 Step 1: Serve the Application
@@ -111,7 +111,7 @@ Male Infants with 8am Medications: http://127.0.0.1:8000/male-infants-8am
 Step 3: Verify Output
 The data should be displayed according to the filtering and categorization logic you've implemented (e.g., medications by time and patient group).
 
-Technical Approach
+# Step 4: Technical Approach
 Overview
 The solution was built using the Laravel framework for the backend with MySQL/MariaDB as the database. For frontend rendering, Blade templates were used with Bootstrap for styling. The logic implemented follows best practices for handling Eloquent relationships and pivot data, ensuring the correct filtering of patient medications based on time and age grou
 
@@ -123,7 +123,7 @@ Pivot Table Handling: The pivot table stores additional information like intake_
 Data Filtering: The solution dynamically filters patients based on age group, gender, and medicine intake time.
 
 
-Dependencies
+# Dependencies
 The solution uses the following major dependencies:
 
 Laravel (PHP Framework)
