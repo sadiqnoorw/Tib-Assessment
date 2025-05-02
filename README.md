@@ -13,6 +13,7 @@ This repository contains the completed technical assessment for the Open Source 
 3. [Execution Guide](#execution-guide)
 4. [Technical Approach](#technical-approach)
 5. [Dependencies](#dependencies)
+6. [Testing and Validation](#testing-and-validation)
 
 
 
@@ -127,9 +128,23 @@ Data Filtering: The solution dynamically filters patients based on age group, ge
 The solution uses the following major dependencies:
 
 Laravel (PHP Framework)
-
 Composer (PHP Dependency Manager)
-
 Bootstrap (CSS Framework)
-
 MySQL/MariaDB (Database)
+
+
+# Testing and Validation
+
+To ensure the application works as expected:
+
+Verify that all database migrations were successful.
+
+Check that the data is filtered correctly in the views (e.g., female adults with 8pm medications).
+
+Test the application by navigating to the routes in your browser.
+
+For unit testing or further validation, you can use Laravel's built-in testing features:
+
+```bash
+    php artisan test
+```
