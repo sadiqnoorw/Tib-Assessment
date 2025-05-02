@@ -111,7 +111,7 @@ Male Infants with 8am Medications: http://127.0.0.1:8000/male-infants-8am
 Step 3: Verify Output
 The data should be displayed according to the filtering and categorization logic you've implemented (e.g., medications by time and patient group).
 
-# Step 4: Technical Approach
+# Technical Approach
 Overview
 The solution was built using the Laravel framework for the backend with MySQL/MariaDB as the database. For frontend rendering, Blade templates were used with Bootstrap for styling. The logic implemented follows best practices for handling Eloquent relationships and pivot data, ensuring the correct filtering of patient medications based on time and age grou
 
